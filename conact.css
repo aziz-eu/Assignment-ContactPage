@@ -179,7 +179,7 @@
 
 .map-img {
   position: absolute;
-  top:0
+  top: 0;
   width: 100vw;
   height: 700px;
   overflow: hidden;
@@ -194,13 +194,14 @@
 .contact-from {
   width: 1170px;
   height: 567px;
-  background-color: gray;
+  background-color: #fff;
   position: absolute;
   bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.1);
 }
 
 .row {
@@ -213,4 +214,17 @@
 }
 select {
   margin-left: 10px;
+}
+
+.partner {
+  width: 100vw;
+  background-color: #fff;
+  height: 161px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner img {
+  margin: 0 15px;
 }
